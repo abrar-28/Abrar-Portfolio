@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 <body>
@@ -36,7 +39,7 @@
     </header>
     <section id="hero-section">
         <div class="hero-container container">
-            <div class="hero-left">
+            <div class="hero-left" data-aos="fade-right" data-aos-duration="1000">
                 <h2>Build With Code
                     <span>________</span>
                 </h2>
@@ -50,7 +53,7 @@
                 </div>
 
             </div>
-            <div class="hero-right">
+            <div class="hero-right" data-aos="fade-left" data-aos-duration="1000">
                 <div class="hero-img">
                     <img src="./images/hero-img.png" alt="">
                 </div>
@@ -64,7 +67,7 @@
                 <div class="bar"></div>
             </div>
             <div class="about-content">
-                <div class="about-left">
+                <div class="about-left" data-aos="fade-right" data-aos-duration="1000">
                     <div class="about-style-two-thumb text-center">
                         <img src="./images/about.jpg" alt="Image Not Found">
                         <div class="info">
@@ -77,7 +80,7 @@
                     </div>
 
                 </div>
-                <div class="about-right">
+                <div class="about-right" data-aos="fade-left" data-aos-duration="1000">
                     <h3>About Me</h3>
                     <h2>I can develop that help <br> people</h2>
                     <p>Hi, I'm Abrar, a passionate web developer with expertise in creating dynamic and responsive
@@ -318,7 +321,7 @@
                 <div class="bar"></div>
             </div>
             <div class="my-service">
-                <div class="service-left">
+                <div class="service-left" data-aos="fade-right" data-aos-duration="1000">
                     <div class="service-tab ">
                         <i class="fa-solid fa-code"></i>
                         <span>Website <br> Development</span>
@@ -345,7 +348,7 @@
                         <i class="fa-solid fa-arrow-right"></i>
                     </div>
                 </div>
-                <div class="service-right">
+                <div class="service-right" data-aos="fade-left" data-aos-duration="1000">
                     <div class="service-content ">
                         <h3>Website Development</h3>
                         <p>I specialize in professional website development that helps businesses grow their online
@@ -841,6 +844,12 @@
     </section>
     <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
     <script src="script.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 
 </html>
